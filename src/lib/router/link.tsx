@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { RouterContext } from "./router";
 
 type LinkProps = React.AnchorHTMLAttributes<HTMLAnchorElement> & {
+  href: string;
   replace?: boolean;
 };
 
