@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "../lib/router";
 import { Loader } from "../components/loader";
 
-export function HomePage() {
+export default function HomePage() {
   return (
     <div className="space-y-6 my-4">
       <header className="flex items-center flex-col gap-4 mt-10 text-center">

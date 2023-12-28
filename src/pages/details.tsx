@@ -1,7 +1,7 @@
 import React from "react";
 import { Loader } from "../components/loader";
 
-export function DetailsPage() {
+export default function DetailsPage() {
   const searchParams = new URLSearchParams(location.search);
   const breed = searchParams.get("breed");
 
