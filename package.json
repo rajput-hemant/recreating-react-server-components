@@ -15,7 +15,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "hono": "^3.11.11",
+    "hono": "^4.6.6",
     "react": "canary",
     "react-dom": "canary"
   },
